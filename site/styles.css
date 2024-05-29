@@ -1,0 +1,102 @@
+body {
+  margin-left: 512px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  font-size: 0;
+  position: absolute;
+  background-color: #403e39;
+}
+.menu {
+  a {
+    color: #000000; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+  }
+  a:hover {
+    color: #ce242b; /* Цвет ссылки при наведении */
+  }
+}
+.menu {
+  background: url("siteimages/left.jpg"), url("siteimages/bg_l1.gif");
+  display: grid;
+  background-repeat: no-repeat, repeat-y;
+}
+.menua {
+  width: 196px;
+  background: url("siteimages/bg_c.gif");
+  background-size: 100% 100%;
+  margin-left: 63px;
+  align-items: center;
+}
+
+.main_text {
+  width: 580px;
+  padding-left: 41px;
+  float: left;
+  background: url("siteimages/bg_c.gif");
+  background-size: 580px 489px;
+}
+.centrtext {
+  font-family: arial;
+  font-size: 12px;
+  color: #424242;
+  display: flex;
+  flex-direction: row;
+}
+.right_p {
+  width: 65px;
+  background: url("siteimages/war_18.jpg"), url("siteimages/bg_r1.gif");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 65px 100%, 100% 100%;
+}
+.prom_mm {
+  width: 33px;
+  background: url("siteimages/war_15.jpg");
+  background-size: 33px 100%;
+}
+.line {
+  border-top: 1px dashed #000; /* Параметры линии */
+  height: 18px; /* Высота блока */
+}
+.bglc {
+  color: #aa0a09;
+  height: 100%;
+  background: url("siteimages/bg_l1.gif"), url("siteimages/bg_c.gif");
+  background-repeat: repeat-y, no-repeat;
+  background-size: 63px 100%, 100% 100%;
+  background-position: left bottom, center;
+}
+.bglc a {
+  padding-left: 0px;
+}
+.undermenu {
+  padding-left: 10px;
+  a {
+    color: #63605d;
+  }
+}
+.bglc {
+  padding-left: 40px;
+}
+.upmenu {
+  display: flex;
+  flex-direction: row;
+  a {
+    color: #63605d;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #403e39;
+    text-decoration-line: underline;
+  }
+}
+a {
+  color: #63605d;
+}
+input {
+  width: 100px;
+}
+.enter {
+  width: 140px;
+}
